@@ -10,7 +10,7 @@ const routes = [
     component: () => import("@/views/NewsView"),
   },
   {
-    path: "/ask",
+    path: "/ask2",
     component: AskView,
   },
   {
