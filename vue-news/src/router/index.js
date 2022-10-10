@@ -5,12 +5,12 @@ import AskView from "../views/AskView.vue";
 
 const routes = [
   {
-    path: "/news",
+    path: "/",
     name: "news",
     component: () => import("@/views/NewsView"),
   },
   {
-    path: "/ask2",
+    path: "/ask",
     component: AskView,
   },
   {
